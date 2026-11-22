@@ -1,0 +1,33 @@
+StationID,Station_Name,City,Region
+1,Birmingham New Street,Birmingham,West Midlands
+2,Bristol Temple Meads,Bristol,South West
+3,Cardiff Central,Cardiff,Wales
+4,Coventry,Coventry,West Midlands
+5,Crewe,Crewe,North West
+6,Didcot,Didcot,South East
+7,Doncaster,Doncaster,Yorkshire and The Humber
+8,Durham,Durham,North East
+9,Edinburgh,Edinburgh,Scotland
+10,Edinburgh Waverley,Edinburgh,Scotland
+11,Leeds,Leeds,Yorkshire and The Humber
+12,Leicester,Leicester,East Midlands
+13,Liverpool Lime Street,Liverpool,North West
+14,London Euston,London,London
+15,London Kings Cross,London,London
+16,London Paddington,London,London
+17,London St Pancras,London,London
+18,London Waterloo,London,London
+19,Manchester Piccadilly,Manchester,North West
+20,Nottingham,Nottingham,East Midlands
+21,Nuneaton,Nuneaton,West Midlands
+22,Oxford,Oxford,South East
+23,Peterborough,Peterborough,East of England
+24,Reading,Reading,South East
+25,Sheffield,Sheffield,Yorkshire and The Humber
+26,Stafford,Stafford,West Midlands
+27,Swindon,Swindon,South West
+28,Tamworth,Tamworth,West Midlands
+29,Wakefield,Wakefield,Yorkshire and The Humber
+30,Warrington,Warrington,North West
+31,Wolverhampton,Wolverhampton,West Midlands
+32,York,York,Yorkshire and The Humber

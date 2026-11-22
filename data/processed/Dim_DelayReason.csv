@@ -1,0 +1,7 @@
+DelayReasonID,Reason_for_Delay,Reason_Category
+1,No Delay,No Delay
+2,Signal Failure,Infrastructure
+3,Staffing,Staff
+4,Technical Issue,Infrastructure
+5,Traffic,External
+6,Weather,External

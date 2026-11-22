@@ -1,0 +1,5 @@
+RailcardID,Railcard,Discount_Pct
+1,Adult,33.33
+2,Disabled,33.33
+3,None,0.0
+4,Senior,33.33

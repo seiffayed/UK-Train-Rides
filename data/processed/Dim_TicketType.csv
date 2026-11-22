@@ -1,0 +1,4 @@
+TicketTypeID,Ticket_Type,Discount_Pct
+1,Advance,50.0
+2,Anytime,0.0
+3,Off-Peak,25.0
