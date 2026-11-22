@@ -131,7 +131,21 @@ The Power BI report has four pages:
 | Operational Performance | How often are trains late or cancelled, and why? | On-time rate, delay rate, cancellation rate, average delay |
 | Ticket Purchasing and Refunds | How do people buy, and when do they ask for refunds? | Online share, railcard usage, days booked ahead, refund requests |
 
-<!-- Screenshots of the four pages will be added here -->
+### Sales and Revenue
+
+![Sales and Revenue page](docs/screenshots/01_sales_revenue.png)
+
+### Passenger Demand
+
+![Passenger Demand page](docs/screenshots/02_passenger_demand.png)
+
+### Operational Performance
+
+![Operational Performance page](docs/screenshots/03_operational_performance.png)
+
+### Ticket Purchasing and Refunds
+
+![Ticket Purchasing and Refunds page](docs/screenshots/04_purchasing_refunds.png)
 
 KPI formulas are explained in `docs/kpi_definitions.md`.
 
@@ -193,6 +207,11 @@ UK-Train-Rides/
 └── docs/
     ├── UK_Train_Rides_Schema.docx           # database schema
     ├── data_model.png                       # Power BI model view
+    ├── screenshots/                         # the four report pages
+    │   ├── 01_sales_revenue.png
+    │   ├── 02_passenger_demand.png
+    │   ├── 03_operational_performance.png
+    │   └── 04_purchasing_refunds.png
     ├── kpi_definitions.md                   # KPI definitions
     ├── insights_and_recommendations.md      # findings and recommendations
     ├── UK_Train_Rides_Dashboards.fig        # Figma design
