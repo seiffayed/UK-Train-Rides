@@ -29,6 +29,8 @@ CREATE TABLE Dim_Station (
     Station_Name   VARCHAR(50)  NOT NULL,
     City           VARCHAR(50)  NOT NULL,
     Region         VARCHAR(50)  NOT NULL,
+    Latitude       DECIMAL(9,6) NOT NULL,   -- added for the Power BI map
+    Longitude      DECIMAL(9,6) NOT NULL,   -- added for the Power BI map
     CONSTRAINT PK_Dim_Station PRIMARY KEY (StationID),
     CONSTRAINT UQ_Dim_Station_Name UNIQUE (Station_Name)
 );

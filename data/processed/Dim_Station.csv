@@ -1,33 +1,33 @@
-StationID,Station_Name,City,Region
-1,Birmingham New Street,Birmingham,West Midlands
-2,Bristol Temple Meads,Bristol,South West
-3,Cardiff Central,Cardiff,Wales
-4,Coventry,Coventry,West Midlands
-5,Crewe,Crewe,North West
-6,Didcot,Didcot,South East
-7,Doncaster,Doncaster,Yorkshire and The Humber
-8,Durham,Durham,North East
-9,Edinburgh,Edinburgh,Scotland
-10,Edinburgh Waverley,Edinburgh,Scotland
-11,Leeds,Leeds,Yorkshire and The Humber
-12,Leicester,Leicester,East Midlands
-13,Liverpool Lime Street,Liverpool,North West
-14,London Euston,London,London
-15,London Kings Cross,London,London
-16,London Paddington,London,London
-17,London St Pancras,London,London
-18,London Waterloo,London,London
-19,Manchester Piccadilly,Manchester,North West
-20,Nottingham,Nottingham,East Midlands
-21,Nuneaton,Nuneaton,West Midlands
-22,Oxford,Oxford,South East
-23,Peterborough,Peterborough,East of England
-24,Reading,Reading,South East
-25,Sheffield,Sheffield,Yorkshire and The Humber
-26,Stafford,Stafford,West Midlands
-27,Swindon,Swindon,South West
-28,Tamworth,Tamworth,West Midlands
-29,Wakefield,Wakefield,Yorkshire and The Humber
-30,Warrington,Warrington,North West
-31,Wolverhampton,Wolverhampton,West Midlands
-32,York,York,Yorkshire and The Humber
+StationID,Station_Name,City,Region,Latitude,Longitude
+1,Birmingham New Street,Birmingham,West Midlands,52.477645,-1.898954
+2,Bristol Temple Meads,Bristol,South West,51.449327,-2.58031
+3,Cardiff Central,Cardiff,Wales,51.475619,-3.179334
+4,Coventry,Coventry,West Midlands,52.400768,-1.513622
+5,Crewe,Crewe,North West,53.08921,-2.432875
+6,Didcot,Didcot,South East,51.611193,-1.242514
+7,Doncaster,Doncaster,Yorkshire and The Humber,53.522148,-1.139845
+8,Durham,Durham,North East,54.779694,-1.581609
+9,Edinburgh,Edinburgh,Scotland,55.952115,-3.188956
+10,Edinburgh Waverley,Edinburgh,Scotland,55.952115,-3.188956
+11,Leeds,Leeds,Yorkshire and The Humber,53.794403,-1.548054
+12,Leicester,Leicester,East Midlands,52.631934,-1.123802
+13,Liverpool Lime Street,Liverpool,North West,53.407775,-2.977556
+14,London Euston,London,London,51.529131,-0.134921
+15,London Kings Cross,London,London,51.531916,-0.123475
+16,London Paddington,London,London,51.516743,-0.176922
+17,London St Pancras,London,London,51.531938,-0.126559
+18,London Waterloo,London,London,51.502322,-0.113437
+19,Manchester Piccadilly,Manchester,North West,53.476985,-2.229612
+20,Nottingham,Nottingham,East Midlands,52.947226,-1.145129
+21,Nuneaton,Nuneaton,West Midlands,52.526449,-1.463668
+22,Oxford,Oxford,South East,51.753837,-1.270365
+23,Peterborough,Peterborough,East of England,52.575015,-0.250824
+24,Reading,Reading,South East,51.459316,-0.971966
+25,Sheffield,Sheffield,Yorkshire and The Humber,53.378218,-1.462111
+26,Stafford,Stafford,West Midlands,52.803753,-2.122807
+27,Swindon,Swindon,South West,51.565472,-1.78603
+28,Tamworth,Tamworth,West Midlands,52.637537,-1.686863
+29,Wakefield,Wakefield,Yorkshire and The Humber,53.682432,-1.505724
+30,Warrington,Warrington,North West,53.391962,-2.592343
+31,Wolverhampton,Wolverhampton,West Midlands,52.587762,-2.119854
+32,York,York,Yorkshire and The Humber,53.957964,-1.093182
