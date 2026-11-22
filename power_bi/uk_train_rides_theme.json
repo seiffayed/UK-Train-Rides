@@ -22,22 +22,22 @@
   "textClasses": {
     "title": {
       "fontFace": "Segoe UI Semibold",
-      "fontSize": 12,
+      "fontSize": 20,
       "color": "#1B1F24"
     },
     "header": {
       "fontFace": "Segoe UI Semibold",
-      "fontSize": 11,
+      "fontSize": 15,
       "color": "#5B6573"
     },
     "label": {
       "fontFace": "Segoe UI",
-      "fontSize": 10,
+      "fontSize": 16,
       "color": "#5B6573"
     },
     "callout": {
       "fontFace": "Segoe UI Bold",
-      "fontSize": 24,
+      "fontSize": 34,
       "color": "#1B1F24"
     }
   },
@@ -47,19 +47,59 @@
         "background": [
           {
             "show": true,
-            "color": { "solid": { "color": "#FFFFFF" } },
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
             "transparency": 0
           }
         ],
         "border": [
           {
             "show": true,
-            "color": { "solid": { "color": "#DDE2E8" } },
+            "color": {
+              "solid": {
+                "color": "#DDE2E8"
+              }
+            },
             "radius": 8
           }
         ],
         "dropShadow": [
-          { "show": false }
+          {
+            "show": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "title": [
+          {
+            "fontSize": 20
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
         ]
       }
     },
@@ -67,13 +107,400 @@
       "*": {
         "background": [
           {
-            "color": { "solid": { "color": "#EEF1F5" } },
+            "color": {
+              "solid": {
+                "color": "#EEF1F5"
+              }
+            },
             "transparency": 0
           }
         ],
         "outspace": [
           {
-            "color": { "solid": { "color": "#EEF1F5" } }
+            "color": {
+              "solid": {
+                "color": "#EEF1F5"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "textSize": 12,
+            "fontSize": 12
+          }
+        ],
+        "items": [
+          {
+            "textSize": 12,
+            "fontSize": 12
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "values": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "rowHeaders": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "total": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "values": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "rowHeaders": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "total": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "treemap": {
+      "*": {
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "categoryLabels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "totals": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "totals": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "totals": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "totals": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "totals": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedColumnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "totals": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedBarChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "totals": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
+          }
+        ]
+      }
+    },
+    "map": {
+      "*": {
+        "legend": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "categoryLabels": [
+          {
+            "fontSize": 16
+          }
+        ],
+        "general": [
+          {
+            "responsive": false
           }
         ]
       }
