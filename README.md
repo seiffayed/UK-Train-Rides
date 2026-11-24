@@ -22,7 +22,7 @@ The work is descriptive and diagnostic. There is no forecasting or machine learn
 ## Workflow
 
 ```
-railway.csv  ->  Python (pandas)  ->  11 tables (star schema)  ->  SQL Server  ->  Power BI (4 pages)
+railway.csv  ->  Python (pandas)  ->  11 tables (star schema)  ->  SQL Server  ->  Power BI (Home + 4 pages)
 ```
 
 | Step | Tool | What happens |
@@ -31,7 +31,7 @@ railway.csv  ->  Python (pandas)  ->  11 tables (star schema)  ->  SQL Server  -
 | 2. Cleaning and modeling | Python | Clean the data and build 9 dimension tables and 2 fact tables |
 | 3. Database | SQL Server | Create the tables with keys and constraints, load the data, check it with SQL queries |
 | 4. Design | Figma | Design the layout of the four dashboard pages |
-| 5. Dashboards | Power BI | Build the data model, DAX measures and four report pages |
+| 5. Dashboards | Power BI | Build the data model, DAX measures, a home page and four report pages |
 | 6. Insights | - | Write findings and recommendations |
 
 ## The data
@@ -122,7 +122,7 @@ The full table design is in `docs/UK_Train_Rides_Schema.docx`. We added `Latitud
 
 ## Dashboards
 
-The Power BI report has four pages:
+The Power BI report opens on a **Home** page, followed by four analysis pages:
 
 | Page | Question | Main KPIs |
 |---|---|---|
@@ -130,6 +130,12 @@ The Power BI report has four pages:
 | Passenger Demand | When and where do people travel? | Tickets per day, busiest route, peak hour |
 | Operational Performance | How often are trains late or cancelled, and why? | On-time rate, delay rate, cancellation rate, average delay |
 | Ticket Purchasing and Refunds | How do people buy, and when do they ask for refunds? | Online share, railcard usage, days booked ahead, refund requests |
+
+### Home
+
+The home page shows one headline number for each analysis page. Each tile is a button that opens its page (Ctrl + click in Power BI Desktop).
+
+![Home page](docs/screenshots/00_home.png)
 
 ### Sales and Revenue
 
@@ -200,6 +206,7 @@ UK-Train-Rides/
 │   ├── UK_Train_Rides_Analytics.pbix        # the report
 │   ├── uk_train_rides_theme.json            # report theme
 │   └── backgrounds/                         # page backgrounds exported from Figma
+│       ├── 00_home_background.png
 │       ├── 01_sales_background.png
 │       ├── 02_demand_background.png
 │       ├── 03_operations_background.png
@@ -207,7 +214,8 @@ UK-Train-Rides/
 └── docs/
     ├── UK_Train_Rides_Schema.docx           # database schema
     ├── data_model.png                       # Power BI model view
-    ├── screenshots/                         # the four report pages
+    ├── screenshots/                         # the report pages
+    │   ├── 00_home.png
     │   ├── 01_sales_revenue.png
     │   ├── 02_passenger_demand.png
     │   ├── 03_operational_performance.png
@@ -250,7 +258,7 @@ git clone https://github.com/seiffayed/UK-Train-Rides.git
 | 2 | In SSMS, open and run `sql/01_create_database.sql`, then `sql/02_create_tables.sql` | A database called `UK_Train_Rides` with 11 empty tables |
 | 3 | In `notebooks/03_load_to_sql_server.ipynb`, change `SERVER = "..."` to your own server name, then run the notebook | Row counts that match the CSV files, and total price = 741,921 |
 | 4 | Optional: run `sql/03_analysis_queries.sql` in SSMS | The same KPI values shown in the report |
-| 5 | Open `power_bi/UK_Train_Rides_Analytics.pbix`. Go to **Transform data → Data source settings**, change the server to yours, then click **Refresh** | The four report pages filled with data |
+| 5 | Open `power_bi/UK_Train_Rides_Analytics.pbix`. Go to **Transform data → Data source settings**, change the server to yours, then click **Refresh** | The home page and the four report pages filled with data |
 
 `notebooks/01_data_profiling.ipynb` is optional. It only checks the raw data and does not create any files.
 
